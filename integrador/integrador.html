@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <title>Tienda de Videojuegos</title>
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="header">
+        <img src="./imgs/Logo Empresa.jpg" alt="Logo de la empresa">
+        <h1 class="logo">GAMEPOLIS - "Más Allá de la Pantalla"</h1>
+        <button id="carritoBtn" class="carrito-btn"><b>Carrito</b> 🛒</button>
+    </header>
+
+    <main class="main-content">
+        <section id="inicio">
+            <div class="container">
+              <h2>👾<i>¡ENCUENTRA LOS MEJORES VIDEOJUEGOS!</i>🕹️</h2><br>
+              <div class="producto">
+                <img src="./imgs/FC 24.jpg" alt="Producto 1">
+                <h3>EA Sports FC 24</h3>
+                <p class="precio">$49.99</p>
+                <button class="comprar1">Añadir al Carrito</button>
+              </div><br><br>
+              <div class="producto">
+                <img src="./imgs/mortal-kombat-11.jpg" alt="Producto 2">
+                <h3>Mortal Kombat</h3>
+                <p class="precio">$59.99</p>
+                <button class="comprar2">Añadir al Carrito</button>
+              </div><br><br>
+              <div class="producto">
+                <img src="./imgs/GTA V.jpg" alt="Producto 3">
+                <h3>Grand Theft Auto V</h3>
+                <p class="precio">$39.99</p>
+                <button class="comprar3">Añadir al Carrito</button>
+              </div><br><br>
+              <div class="producto">
+                <img src="./imgs/NBA 2K23.jpg" alt="Producto 4">
+                <h3>NBA 2K23</h3>
+                <p class="precio">$45.99</p>
+                <button class="comprar4">Añadir al Carrito</button>
+              </div><br><br>
+              <div class="producto">
+                <img src="./imgs/God Of War Ragnarok.jpg" alt="Producto 5">
+                <h3>God Of War Ragnarok</h3>
+                <p class="precio">$57.99</p>
+                <button class="comprar5">Añadir al Carrito</button>
+              </div><br><br>
+              <div class="producto">
+                <img src="./imgs/Marvel Spider-Man.jpg" alt="Producto 6">
+                <h3>Marvel Spider-Man</h3>
+                <p class="precio">$52.99</p>
+                <button class="comprar6">Añadir al Carrito</button>
+              </div>
+            </div>
+          </section>
+          <section id="alta">
+            <div class="container">
+              <h2><i>BUSCA TU VIDEOJUEGO FAVORITO:</i></h2>
+              <form id="formularioBusqueda">
+                <div class="form-group">
+                  <label for="nombre">Nombre:*</label>
+                  <input type="text" id="nombre" required>
+                </div>
+                <div class="form-group">
+                  <label for="precio">Precio:*</label>
+                  <input type="number" id="precio" required>
+                </div><br>
+                <div class="form-group">
+                  <label for="stock">Stock:*</label>
+                  <input type="number" id="stock" required>
+                </div><br>
+                <div class="form-group">
+                  <label for="plataforma">Plataforma:*</label>
+                  <input type="text" id="plataforma" required>
+                </div><br>
+                <div class="form-group">
+                  <label for="categoria">Categoría:*</label>
+                  <input type="text" id="categoria" required>
+                </div><br>
+                <button type="reset">Restablecer</button>
+                <button type="submit">Buscar</button>
+              </form>
+            </div>
+          </section>
+          <section id="informacion">
+            <div class="container">
+              <h2>GAMEPOLIS: Tu Destino para Videojuegos 🎮🏆</h2>
+              <p>En GAMEPOLIS, estamos comprometidos con tu satisfacción al comprar videojuegos. Descubre por qué somos tu mejor opción:</p><br>
+              <ul>
+                <li>1. Amplia Variedad: Explora nuestra amplia colección de videojuegos que abarca todos los géneros imaginables. Sea cual sea tu estilo, tenemos algo para ti 🕹️🌌.</li><br>
+                <li>2. Siempre a la Vanguardia: Mantente al día con los últimos lanzamientos y revive los clásicos que marcaron tu infancia. En GAMEPOLIS, encontrarás lo mejor de ambos mundos 🚀🕹️.</li><br>
+                <li>3. Precios Justos: Valoramos tu presupuesto. Ofrecemos precios competitivos y descuentos especiales para que disfrutes de tus juegos favoritos sin romper el banco 💰🎁.</li><br>
+                <li>4. Entrega Segura y Rápida: Tu diversión no puede esperar. Nos aseguramos de que tus juegos lleguen rápidamente y en perfecto estado a tu puerta 🚚🏠.</li><br>
+                <li>5. Atención Personalizada: No eres solo un cliente, eres parte de nuestra comunidad. Nuestro equipo amigable está aquí para ayudarte y escucharte en cada paso 🤝😊.</li><br>
+              </ul><br>
+              <p>En GAMEPOLIS, nos apasiona ofrecerte una experiencia de juego incomparable. Únete a nosotros y comienza tu próxima aventura. ¡Es hora de jugar! 🎉🎮</p>
+            </div>
+          </section>
+          <section id="contacto">
+            <div class="container">
+              <h2><i>CONTACTENOS COMPLETANDO AQUI ABAJO:</i></h2>
+              <form id="formularioContacto">
+                <div class="form-group">
+                  <label for="nombre">Nombre:*</label>
+                  <input type="text" id="nombre" required>
+                </div><br>
+                <div class="form-group">
+                  <label for="email">Email:*</label>
+                  <input type="email" id="email" required>
+                </div><br>
+                <div class="form-group">
+                  <label for="mensaje">Mensaje:*</label>
+                  <textarea id="mensaje" required></textarea>
+                </div><br>
+                <button type="reset">Restablecer</button>
+                <button type="submit">Enviar</button>
+              </form>
+            </div>
+          </section>
+          <footer>
+            <div class="container">
+              <p>&copy; GAMEPOLIS 2023 - Tienda Online de Videojuegos. Todos los derechos reservados.</p><br>
+              <div class="RedesSociales">
+                <a href="https://www.instagram.com" target="_blank"><img src="./imgs/icono instagram.avif" alt="Instagram"></a>
+                <a href="https://www.youtube.com" target="_blank"><img src="./imgs/icono youtube.avif" alt="YouTube"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="./imgs/icono twitter.avif" alt="Twitter"></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="./imgs/icono facebook.avif" alt="Facebook"></a>
+              </div>  
+            </div>
+        </footer>
+
+        <div id="carritoModal" class="modal">
+        <div class="modal-content">
+          <h2>Carrito de Compras</h2>
+          <div id="listaCarrito" class="carrito-lista">
+            <img src="./imgs/FC 24.jpg" alt="FC 24">
+          </div>
+          <button id="cerrarCarrito" class="cerrar-btn">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+

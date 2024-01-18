@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #000;
+  background-image: url("./imgs/Fondo\ Videojuegos.jpg");
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.carrito-btn {
+  background-color: green;
+  color: green;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #007bff;
+  background-image: url("./imgs/Fondo\ Play.jpg");
+  padding: 0 auto;
+  display: flex;
+  height: 150px;
+}
+
+h1 {
+  margin: 0;
+  margin-top: 18px;
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+}
+
+section {
+  padding: 40px 0;
+  font-size: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.producto {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.producto img {
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  max-width: 100%; 
+  height: auto;
+}
+
+.producto:hover {
+  transform: scale(1.1); /* Escala la imagen al 110% del tamaño original */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0); /* Agrega una sombra cuando el cursor pasa por encima */
+}
+
+.producto h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.precio {
+  font-size: 18px;
+}
+
+form {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+}
+
+.comprar1 {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 3px 3px 3px blue;
+}
+
+.comprar2 {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 3px 3px 3px blue;
+}
+
+.comprar3 {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 3px 3px 3px blue;
+}
+
+.comprar4 {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 3px 3px 3px blue;
+}
+
+.comprar5 {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 3px 3px 3px blue;
+}
+
+.comprar6 {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 3px 3px 3px blue;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.boton2 {
+  margin-left: 20px;
+  padding: 7px 7px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 3px 3px 3px greenyellow;
+}
+
+.boton2:hover {
+  background-color: rgb(18, 83, 18);
+}
+
+footer {
+  background-color: #007bff;
+  background-image: url("./imgs/Fondo\ Play.jpg");
+  padding: 0 auto;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.RedesSociales {
+  margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+}
+
+.RedesSociales a {
+  margin: 0 10px; /* Espacio entre los iconos */
+}
+
+.RedesSociales img {
+  width: 50px; /* Tamaño de los iconos */
+  height: 50px;
+}
+
+/* Estilos para el modal del carrito (simplificado) */
+.modal {
+  margin-left: 10px;
+  display: none;
+  text-align: center;
+}
+
+.carrito-btn {
+  margin: 45px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 35px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 3px 3px 3px greenyellow;
+}
+
+.logo {
+  margin-top: 42px;
+  margin-left: 25px;
+}
